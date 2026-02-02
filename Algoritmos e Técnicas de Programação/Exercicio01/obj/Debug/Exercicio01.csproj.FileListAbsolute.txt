@@ -1,0 +1,7 @@
+C:\Users\ryanm\Source\Repos\puc-exercises\Algoritmos e Técnicas de Programação\Exercicio01\obj\Debug\Exercicio01.csproj.AssemblyReference.cache
+C:\Users\ryanm\Source\Repos\puc-exercises\Algoritmos e Técnicas de Programação\Exercicio01\obj\Debug\Exercicio01.csproj.CoreCompileInputs.cache
+C:\Users\ryanm\Source\Repos\puc-exercises\Algoritmos e Técnicas de Programação\Exercicio01\bin\Debug\Exercicio01.exe.config
+C:\Users\ryanm\Source\Repos\puc-exercises\Algoritmos e Técnicas de Programação\Exercicio01\bin\Debug\Exercicio01.exe
+C:\Users\ryanm\Source\Repos\puc-exercises\Algoritmos e Técnicas de Programação\Exercicio01\bin\Debug\Exercicio01.pdb
+C:\Users\ryanm\Source\Repos\puc-exercises\Algoritmos e Técnicas de Programação\Exercicio01\obj\Debug\Exercicio01.exe
+C:\Users\ryanm\Source\Repos\puc-exercises\Algoritmos e Técnicas de Programação\Exercicio01\obj\Debug\Exercicio01.pdb
