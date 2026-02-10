@@ -1,0 +1,7 @@
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Técnicas de Programação\Lista 01 - Introdução\Exercicio07\bin\Debug\Exercicio07.exe.config
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Técnicas de Programação\Lista 01 - Introdução\Exercicio07\bin\Debug\Exercicio07.exe
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Técnicas de Programação\Lista 01 - Introdução\Exercicio07\bin\Debug\Exercicio07.pdb
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Técnicas de Programação\Lista 01 - Introdução\Exercicio07\obj\Debug\Exercicio07.csproj.AssemblyReference.cache
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Técnicas de Programação\Lista 01 - Introdução\Exercicio07\obj\Debug\Exercicio07.csproj.CoreCompileInputs.cache
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Técnicas de Programação\Lista 01 - Introdução\Exercicio07\obj\Debug\Exercicio07.exe
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Técnicas de Programação\Lista 01 - Introdução\Exercicio07\obj\Debug\Exercicio07.pdb
