@@ -10,30 +10,22 @@ namespace Exercicio01
     {
         static void Main(string[] args)
         {
-            int num, ultimoNum = -1, seqAtual = 1, seqFinal = 1;
+            int n, aux = 1;
 
-            Console.WriteLine("Digite uma sequência de números inteiros positivos (digite -1 para parar): ");
-            
-            while (true)
+            Console.WriteLine("Insira quantas linhas deseja que o triângulo de Floyd possua: ");
+            n = int.Parse(Console.ReadLine());
+            Console.Clear();
+
+            for (int i = 1; i <= n; i++)
             {
-                num = int.Parse(Console.ReadLine());
+                Console.WriteLine();
 
-                if (num == -1)
+                for (int j = 1; j <= i; j++)
                 {
-                    break;
-                }
-
-                if (ultimoNum != -1  && num > ultimoNum)
-                {
-                    seqAtual++;
-                }
-                else
-                {
-                    seqAtual = 1;
+                    Console.Write(aux + " ");
+                    aux++;
                 }
             }
-
-
         }
     }
 }

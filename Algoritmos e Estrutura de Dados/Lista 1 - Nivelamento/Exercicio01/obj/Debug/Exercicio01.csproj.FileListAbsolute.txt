@@ -1,0 +1,7 @@
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Estrutura de Dados\Lista 1 - Nivelamento\Exercicio01\bin\Debug\Exercicio01.exe.config
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Estrutura de Dados\Lista 1 - Nivelamento\Exercicio01\bin\Debug\Exercicio01.exe
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Estrutura de Dados\Lista 1 - Nivelamento\Exercicio01\bin\Debug\Exercicio01.pdb
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Estrutura de Dados\Lista 1 - Nivelamento\Exercicio01\obj\Debug\Exercicio01.csproj.AssemblyReference.cache
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Estrutura de Dados\Lista 1 - Nivelamento\Exercicio01\obj\Debug\Exercicio01.csproj.CoreCompileInputs.cache
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Estrutura de Dados\Lista 1 - Nivelamento\Exercicio01\obj\Debug\Exercicio01.exe
+C:\Users\ryanm\source\repos\ryanmoreir4\puc-exercises\Algoritmos e Estrutura de Dados\Lista 1 - Nivelamento\Exercicio01\obj\Debug\Exercicio01.pdb
