@@ -25,20 +25,20 @@
 
         }
 
-        static double Media(int tam, int soma)
+        static double Media(int[] num, int soma)
         {
             double media = 0;
 
-            media = (double)soma / tam;
+            media = (double)soma / num.Length;
 
             return media;
         }
 
-        static int MaiorMedia(int[] num, int tam, double media)
+        static int MaiorMedia(int[] num, double media)
         {
             int maiorMedia = 0;
 
-            for(int i = 0; i < tam; i++)
+            for(int i = 0; i < num.Length; i++)
             {
                 if (num[i] > media)
                     maiorMedia++;
@@ -47,11 +47,11 @@
             return maiorMedia;
         }
 
-        static int MenorMetadeMedia(int[] num, int tam, double media)
+        static int MenorMetadeMedia(int[] num, double media)
         {
             int menorMetadeMedia = 0;
 
-            for (int i = 0; i < tam; i++)
+            for (int i = 0; i < num.Length; i++)
             {
                 if (num[i] < (media / 2))
                     menorMetadeMedia++;
@@ -60,36 +60,22 @@
             return menorMetadeMedia;
         }
 
-        static void ContarParImpar(int[] num, out int par, out int impar)
+        static int ContarParImpar(int[] num)
         {
-            par = 0;
-            impar = 0;
+            int par = 0;
 
 
             foreach(int i in num)
             {
                 if(i % 2 == 0)               
                     par++;
-                else
-                    impar++;
             }
-        }
 
-        static void Imprimir(int soma, double media, int par, int impar, int menorMetadeMedia, int maiorMedia)
-        {
-            Console.WriteLine("==== RESULTADO ====");
-            Console.WriteLine($"Soma: {soma}");
-            Console.WriteLine($"Média: {media}");
-            Console.WriteLine($"Pares: {par}");
-            Console.WriteLine($"Ímpar: {impar}");
-            Console.WriteLine($"Maiores que a média: {maiorMedia}");
-            Console.WriteLine($"Menores que a metade da média: {menorMetadeMedia}");
-            Console.ReadLine();
+            return par;
         }
 
         static void Main(string[] args)
         {
-
             Console.Write("Insira a quantidade de números que deseja ler: ");
             int tam = int.Parse(Console.ReadLine());
 
@@ -98,15 +84,23 @@
             LerValores(num, tam);
 
             int soma = Soma(num);
-            double media = Media(tam, soma);
+            double media = Media(num, soma);
 
+            int par = ContarParImpar(num);
+            int impar = num.Length - par;
 
-            ContarParImpar(num, out int par, out int impar);
+            int maiorMedia = MaiorMedia(num, media);
+            int menorMetadeMedia = MenorMetadeMedia(num, media);
 
-            int maiorMedia = MaiorMedia(num, tam, media);
-            int menorMetadeMedia = MenorMetadeMedia(num, tam, media);
+            Console.WriteLine("==== RESULTADO ====");
+            Console.WriteLine($"Soma: {soma}");
+            Console.WriteLine($"Média: {media}");
+            Console.WriteLine($"Pares: {par}");
+            Console.WriteLine($"Ímpar: {impar}");
+            Console.WriteLine($"Maiores que a média: {maiorMedia}");
+            Console.WriteLine($"Menores que a metade da média: {menorMetadeMedia}");
+            Console.ReadLine();
 
-            Imprimir(soma, media, par, impar, menorMetadeMedia, maiorMedia);
         }
     }
 }
